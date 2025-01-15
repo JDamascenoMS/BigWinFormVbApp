@@ -306,6 +306,64 @@
   <ItemGroup>
     <Folder Include="App_Data\" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ClassLibrary1\ClassLibrary1.vbproj">
+      <Project>{eb4dbe2f-518b-4f33-b867-559d91c78b99}</Project>
+      <Name>ClassLibrary1</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ClassLibrary2\ClassLibrary2.vbproj">
+      <Project>{81b01493-9348-4d14-9a52-dd8b573e57c9}</Project>
+      <Name>ClassLibrary2</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ClassLibrary3\ClassLibrary3.vbproj">
+      <Project>{2a4ae3f7-17aa-4065-9c9f-0ef13dd406b4}</Project>
+      <Name>ClassLibrary3</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ClassLibrary4\ClassLibrary4.vbproj">
+      <Project>{954f07f5-7ba2-45c6-b825-8fbfd8bc63fb}</Project>
+      <Name>ClassLibrary4</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ClassLibrary5\ClassLibrary5.vbproj">
+      <Project>{625419ab-237c-4ef8-9c6c-795f606d3b5d}</Project>
+      <Name>ClassLibrary5</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\UnitTestProject1\UnitTestProject1.vbproj">
+      <Project>{07e39754-9651-4ba6-90c8-94fed2688d7a}</Project>
+      <Name>UnitTestProject1</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\WebApplication2\WebApplication2.vbproj">
+      <Project>{563b2fd3-a602-4381-9e4d-d3a0369803d7}</Project>
+      <Name>WebApplication2</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\WebApplication3\WebApplication3.vbproj">
+      <Project>{e3606af2-2a07-44c5-ad2f-7ee8c656867a}</Project>
+      <Name>WebApplication3</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\WebApplication4\WebApplication4.vbproj">
+      <Project>{7096ce2a-9ecc-4297-937c-3ad05c6c8db4}</Project>
+      <Name>WebApplication4</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\WebApplication5\WebApplication5.vbproj">
+      <Project>{70f451aa-0914-4798-8678-c5e3d7c17832}</Project>
+      <Name>WebApplication5</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\WebApplication6\WebApplication6.vbproj">
+      <Project>{7d3ccbfb-36e9-4cba-ab66-c67f79fe12b2}</Project>
+      <Name>WebApplication6</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\WebApplication7\WebApplication7.vbproj">
+      <Project>{f35b846b-c9ea-4c95-9e37-581b2f6c6621}</Project>
+      <Name>WebApplication7</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\WebApplication8\WebApplication8.vbproj">
+      <Project>{c7331cca-85a8-4b2a-bc93-c58072e2f9c2}</Project>
+      <Name>WebApplication8</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\WebApplication9\WebApplication9.vbproj">
+      <Project>{05b6f177-e0cc-40ee-99f9-c27262868067}</Project>
+      <Name>WebApplication9</Name>
+    </ProjectReference>
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>

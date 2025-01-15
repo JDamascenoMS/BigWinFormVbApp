@@ -321,6 +321,36 @@
     <Folder Include="Models\" />
     <Folder Include="Properties\" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ClassLibrary1\ClassLibrary1.vbproj">
+      <Project>{eb4dbe2f-518b-4f33-b867-559d91c78b99}</Project>
+      <Name>ClassLibrary1</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ClassLibrary2\ClassLibrary2.vbproj">
+      <Project>{81b01493-9348-4d14-9a52-dd8b573e57c9}</Project>
+      <Name>ClassLibrary2</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ClassLibrary3\ClassLibrary3.vbproj">
+      <Project>{2a4ae3f7-17aa-4065-9c9f-0ef13dd406b4}</Project>
+      <Name>ClassLibrary3</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ClassLibrary4\ClassLibrary4.vbproj">
+      <Project>{954f07f5-7ba2-45c6-b825-8fbfd8bc63fb}</Project>
+      <Name>ClassLibrary4</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ClassLibrary5\ClassLibrary5.vbproj">
+      <Project>{625419ab-237c-4ef8-9c6c-795f606d3b5d}</Project>
+      <Name>ClassLibrary5</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\UnitTestProject1\UnitTestProject1.vbproj">
+      <Project>{07e39754-9651-4ba6-90c8-94fed2688d7a}</Project>
+      <Name>UnitTestProject1</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\WebApplication9\WebApplication9.vbproj">
+      <Project>{05b6f177-e0cc-40ee-99f9-c27262868067}</Project>
+      <Name>WebApplication9</Name>
+    </ProjectReference>
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>

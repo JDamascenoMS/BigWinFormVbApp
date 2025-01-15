@@ -306,6 +306,12 @@
   <ItemGroup>
     <Folder Include="App_Data\" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\WebApplication4\WebApplication4.vbproj">
+      <Project>{7096ce2a-9ecc-4297-937c-3ad05c6c8db4}</Project>
+      <Name>WebApplication4</Name>
+    </ProjectReference>
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
